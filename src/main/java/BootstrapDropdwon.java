@@ -17,7 +17,7 @@ public class BootstrapDropdwon {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
-		driver.get("http://www.rediff.com/");
+		/*driver.get("http://www.rediff.com/");
 		List<WebElement> lw = driver.findElements(By.tagName("a"));
 		System.out.println(lw.size());
 		
@@ -25,7 +25,7 @@ public class BootstrapDropdwon {
 
 			String text = lw.get(i).getText();
 
-			System.out.println(text);
+			System.out.println(text);*/
 
 			driver.findElement(By.xpath("//button[contains(@class,'multiselect')]")).click();
 			List<WebElement> list = driver.findElements(By.xpath("//ul[contains(@class,'multiselect')]//li/a/label"));
@@ -54,4 +54,4 @@ public class BootstrapDropdwon {
 		 * }
 		 */
 	}
-}
+

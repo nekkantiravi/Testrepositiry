@@ -3,7 +3,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 public class MyPojo {
 
 	private int id;
-	@JsonIgnore
+	//@JsonIgnore
 	private String first_name;
 	private String last_name;
 
