@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.log4j.net.SyslogAppender;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;

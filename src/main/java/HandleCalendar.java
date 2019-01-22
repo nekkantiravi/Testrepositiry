@@ -33,7 +33,7 @@ public class HandleCalendar {
 
 			//if(listfrom.get(i).getText().equals("New Delhi, India")) {
                //listfrom.get(i).click();
-			listfrom.get(r.nextInt(20)).click();
+			listfrom.get(r.nextInt()).click();
 			break;
 
 		//}
